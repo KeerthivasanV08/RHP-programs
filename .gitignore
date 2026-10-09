@@ -1,1 +1,76 @@
-/bin/
+# ==========================================
+
+# KEEP ONLY C++ AND JAVA SOURCE FILES
+
+# ==========================================
+
+# Ignore all files by default
+
+*
+
+# Allow directories so Git can find source files
+
+!*/
+
+# Allow Git configuration
+
+!.gitignore
+
+# Allow C++ source files
+
+!*.cpp
+
+# Allow Java source files
+
+!*.java
+
+# Ignore compiled Java files
+
+*.class
+*.jar
+*.war
+
+# Ignore compiled C/C++ files
+
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore executable and build output folders
+
+bin/
+build/
+dist/
+out/
+target/
+Debug/
+Release/
+
+# Ignore IDE and editor files
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary files
+
+*.tmp
+*.temp
+*.log
+*~
+
+# Ignore common cache folders
+
+**pycache**/
+.cache/
