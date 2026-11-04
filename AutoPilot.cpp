@@ -14,7 +14,7 @@ int main(){
             mn[i] = min(mn[i],j);
         }
     }
-    deque<int> q;
+    deque<int> q;       
     vector<int> dist(N+1,INT_MAX);
     dist[S] = 0;
     q.push_front(S); 

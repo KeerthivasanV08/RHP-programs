@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int m,n;cin>>m>>n;
-    vector<string> arr(m);
+    vector<string> arr(m);      
     map<string,int> mp;
     for(int i=0;i<m;i++){
         cin>>arr[i];
